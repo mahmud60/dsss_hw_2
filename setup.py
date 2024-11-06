@@ -20,7 +20,8 @@ setup(
     python_requires=">=3.6",
     entry_points={
         "console_scripts": [
-            "math_quiz=math_quiz.math_quiz:math_quiz",  # Points to the `math_quiz` function in `math_quiz.py`
+            "math_quiz=math_quiz.math_quiz:math_quiz",
         ],
-    },
+    }
+
 )
